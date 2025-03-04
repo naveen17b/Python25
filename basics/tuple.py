@@ -53,3 +53,15 @@ t2 = (3, 4)
 print(t1 + t2)          # Output: (1, 2, 3, 4)
 
 print(t1 * 2)           # Output: (1, 2, 1, 2)
+
+#  Packing and Unpacking Data --> Tuples support packing and unpacking, making them useful for assigning multiple variables at once.
+person = ("Alice", 30, "Engineer")
+name, age, profession = person
+print(name)  # Output: Alice
+
+
+fruits = ("apple", "banana", "cherry")
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+    
