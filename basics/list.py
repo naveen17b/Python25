@@ -9,13 +9,14 @@ print(x[1])
 
 print(x[2])
 
-
-x.append('testing', 478, 'dev')
+# append adds new element to the list, and it will be added at the end of the list
+# it taskes only one element at a  time
+x.append('testing')
 
 print(x)
 
 
-y = x.copy(all)
+y = x.copy()
 print(y)
 
 x.clear()
