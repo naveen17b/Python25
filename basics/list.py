@@ -25,5 +25,10 @@ print(x)
 y.count('testing')
 print(y)
 
-y.extend('Software test engineer')
+# y.extend('Software test engineer')
+# print(y)
+
+y.insert(3,'automation')
 print(y)
+
+
