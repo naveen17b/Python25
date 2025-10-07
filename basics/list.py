@@ -32,3 +32,7 @@ y.insert(3,'automation')
 print(y)
 
 
+x = [1, 2, 3, 4, 5]
+y = [1,2,3,4,5]
+
+print(x is y)  # false because both are different objects in memory
