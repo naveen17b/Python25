@@ -1,3 +1,8 @@
+
+"""
+functions are reusable block of code
+"""
+
 def throw(name):
     print(f"{name} throws the ball")
 
