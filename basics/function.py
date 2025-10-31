@@ -1,6 +1,9 @@
 
 """
 functions are reusable block of code
+
+#def -> is a keyword used to define a function
+#throw -> is the name of the function
 """
 
 def throw(name):
@@ -8,8 +11,15 @@ def throw(name):
 
 throw("Krishna")
 
-#def -> is a keyword used to define a function
-#throw -> is the name of the function
+
+''' Define a function to print the name and age of a person '''
+
+def person(name, age):
+    print(f"Name of the person: {name}")
+    print(f"Age of the person: {age}")
+
+person("Krish", 30)
+
 
 # function to add two numbers
 # a, b are parameters
