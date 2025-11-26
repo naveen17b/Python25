@@ -1,3 +1,4 @@
+''' Functions with arguments '''
 
 
 def keyword_argument(name, age=20):
@@ -8,7 +9,7 @@ keyword_argument("Praveen", 25)
 keyword_argument("krish")  # Uses default age 20
 
 
-''' positional arguments '''
+''' Arbitrary positional arguments '''
 
 def positional_argument(*args):
     for arg in args:
@@ -21,13 +22,18 @@ def sum_all(*args):
 
 print(sum_all(1, 2, 3, 4, 5))
 
-''' keyword arguments'''
+print(''' keyword arguments''')
+
+""" Inside the function, kwargs is a dictionary of argument names and values."""
+
 def keyword_arguments(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 keyword_arguments(name="Praveen", age=25, city="Delhi")
 
-''' mixed arguments '''
+
+print(" *************************************")
+print (''' "Example of mixed arguments" ''')
 
 def mixed_arguments(name, age=20, *args, **kwargs):
     print(f"Name: {name}")
