@@ -1,3 +1,8 @@
+""" list data type in python
+    - ordered collection of items 
+    - allows duplicate values
+    - mutable (can be changed after creation)"""
+
 
 x = [1, "apple", True]
 
@@ -14,7 +19,6 @@ print(x[2])
 x.append('testing')
 
 print(x)
-
 
 y = x.copy()
 print(y)
@@ -36,3 +40,10 @@ x = [1, 2, 3, 4, 5]
 y = [1,2,3,4,5]
 
 print(x is y)  # false because both are different objects in memory
+
+
+#extend method adds elements of one list to another list
+
+a =[75, 80, 85, 48, 96, 100, 55]
+a.extend([45, 60, 78])
+print(a)
