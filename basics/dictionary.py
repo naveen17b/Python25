@@ -7,7 +7,7 @@ x = {"name": "Praveen", "age": 25}
 print(type(x))
 print(x)
 
-update = x.update(city="Delhi")
+print(x.update(city="vizag"))
 print(x)
 
 pop = x.popitem()
@@ -28,3 +28,10 @@ books = {
 print(books)
 
 print(books["To Kill a Mockingbird"])
+
+
+""" looping through dictionary """
+
+for key, value in x.items():
+    print(f"{key}: {value}")
+
