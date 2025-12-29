@@ -15,7 +15,7 @@ print(x[2])
 
 """
 append:
-# append adds new element to the list, and it will be added at the end of the list
+# append adds new element at the end of the list
 # it taskes only one element at a  time
 """
 
