@@ -6,7 +6,7 @@ tuples, and dictionaries, but stand out for automatically
 eliminating repeated items.
 """
 
-commonSet = {1, "apple", True}
+commonSet = {1, "apple", True, "banana", 1, "apple"}
 print(type(commonSet)) 
 
 commonSet.add("Testing")
