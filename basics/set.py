@@ -7,6 +7,7 @@ eliminating repeated items.
 """
 
 commonSet = {1, "apple", True, "banana", 1, "apple"}
+print(commonSet)  # Output will show unique elements only
 print(type(commonSet)) 
 
 commonSet.add("Testing")
