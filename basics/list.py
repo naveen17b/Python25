@@ -3,7 +3,7 @@
 - allows duplicate values
 - mutable (can be changed after creation)"""
 
-x = [1, "apple", True]
+x = [1, "apple", True, 'testing', 'DevOps', 'Management' ]
 
 print(type(x))
 
@@ -12,6 +12,13 @@ print(x[0])
 print(x[1])
 
 print(x[2])
+
+"""
+rever the list: 
+
+"""
+
+print(x.reverse())
 
 """
 append:
